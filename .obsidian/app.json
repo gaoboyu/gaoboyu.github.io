@@ -1,0 +1,8 @@
+{
+  "userIgnoreFilters": [
+    "node_modules/"
+  ],
+  "promptDelete": false,
+  "attachmentFolderPath": "assets",
+  "newFileLocation": "current"
+}
