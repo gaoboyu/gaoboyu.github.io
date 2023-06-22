@@ -27,10 +27,10 @@ export const pagesComponents = {
   "v-6bb1ef33": defineAsyncComponent(() => import(/* webpackChunkName: "v-6bb1ef33" */"C:/Users/gaobo/OneDrive/Vuepress/.vuepress/.temp/pages/blogs/other/guide.html.vue")),
   // path: /blogs/comment/2018/121501.html
   "v-762887d0": defineAsyncComponent(() => import(/* webpackChunkName: "v-762887d0" */"C:/Users/gaobo/OneDrive/Vuepress/.vuepress/.temp/pages/blogs/comment/2018/121501.html.vue")),
-  // path: /blogs/planner/2016/121501.html
-  "v-b4f5088a": defineAsyncComponent(() => import(/* webpackChunkName: "v-b4f5088a" */"C:/Users/gaobo/OneDrive/Vuepress/.vuepress/.temp/pages/blogs/planner/2016/121501.html.vue")),
   // path: /blogs/comment/2019/092101.html
   "v-7288aeee": defineAsyncComponent(() => import(/* webpackChunkName: "v-7288aeee" */"C:/Users/gaobo/OneDrive/Vuepress/.vuepress/.temp/pages/blogs/comment/2019/092101.html.vue")),
+  // path: /blogs/planner/2016/121501.html
+  "v-b4f5088a": defineAsyncComponent(() => import(/* webpackChunkName: "v-b4f5088a" */"C:/Users/gaobo/OneDrive/Vuepress/.vuepress/.temp/pages/blogs/planner/2016/121501.html.vue")),
   // path: /blogs/planner/2017/092101.html
   "v-bc34ba4e": defineAsyncComponent(() => import(/* webpackChunkName: "v-bc34ba4e" */"C:/Users/gaobo/OneDrive/Vuepress/.vuepress/.temp/pages/blogs/planner/2017/092101.html.vue")),
   // path: /docs/means/commodity/api.html

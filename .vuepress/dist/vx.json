@@ -4,49 +4,31 @@
         {
             "attachment_folder": "",
             "created_time": "2023-06-21T15:40:55Z",
-            "id": "100",
+            "id": "115",
             "modified_time": "2023-06-21T15:40:55Z",
             "name": "head.png",
-            "signature": "71044741405191",
+            "signature": "26931132307975",
             "tags": [
             ]
         },
         {
             "attachment_folder": "",
             "created_time": "2023-06-21T15:40:55Z",
-            "id": "101",
+            "id": "116",
             "modified_time": "2023-06-21T15:40:55Z",
             "name": "logo.png",
-            "signature": "20759264303623",
+            "signature": "25037051730439",
             "tags": [
             ]
         }
     ],
     "folders": [
         {
-            "name": "assets"
-        },
-        {
-            "name": "blogs"
-        },
-        {
-            "name": "categories"
-        },
-        {
-            "name": "docs"
-        },
-        {
-            "name": "posts"
-        },
-        {
-            "name": "tags"
-        },
-        {
-            "name": "timeline"
+            "name": "image"
         }
     ],
-    "id": "81",
+    "id": "114",
     "modified_time": "2023-06-21T15:40:55Z",
-    "signature": "84307600415239",
+    "signature": "81915303631367",
     "version": 3
 }

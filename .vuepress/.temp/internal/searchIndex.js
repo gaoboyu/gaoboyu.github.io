@@ -135,16 +135,16 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "first page in category2",
+    "title": "second page in category1",
     "headers": [],
-    "path": "/blogs/planner/2016/121501.html",
+    "path": "/blogs/comment/2019/092101.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "second page in category1",
+    "title": "first page in category2",
     "headers": [],
-    "path": "/blogs/comment/2019/092101.html",
+    "path": "/blogs/planner/2016/121501.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -191,16 +191,3 @@ export const searchIndex = [
     "extraFields": []
   }
 ]
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ searchIndex }) => {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  })
-}
