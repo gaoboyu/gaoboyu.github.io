@@ -1,0 +1,34 @@
+{
+    "created_time": "2023-06-21T15:40:55Z",
+    "files": [
+        {
+            "attachment_folder": "",
+            "created_time": "2023-06-21T15:40:55Z",
+            "id": "115",
+            "modified_time": "2023-06-21T15:40:55Z",
+            "name": "head.png",
+            "signature": "26931132307975",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2023-06-21T15:40:55Z",
+            "id": "116",
+            "modified_time": "2023-06-21T15:40:55Z",
+            "name": "logo.png",
+            "signature": "25037051730439",
+            "tags": [
+            ]
+        }
+    ],
+    "folders": [
+        {
+            "name": "image"
+        }
+    ],
+    "id": "114",
+    "modified_time": "2023-06-21T15:40:55Z",
+    "signature": "81915303631367",
+    "version": 3
+}

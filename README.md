@@ -21,5 +21,3 @@ isShowTitleInHome: true
 actionText: About
 actionLink: /views/other/about
 ---
-
-![[00003-2914613883.png]]

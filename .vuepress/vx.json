@@ -1,0 +1,27 @@
+{
+    "created_time": "2023-06-21T15:40:54Z",
+    "files": [
+        {
+            "attachment_folder": "",
+            "created_time": "2023-06-21T15:42:14Z",
+            "id": "4083",
+            "modified_time": "2023-06-21T15:42:14Z",
+            "name": "config.ts",
+            "signature": "28541745044054",
+            "tags": [
+            ]
+        }
+    ],
+    "folders": [
+        {
+            "name": "dist"
+        },
+        {
+            "name": "public"
+        }
+    ],
+    "id": "32",
+    "modified_time": "2023-06-21T15:40:54Z",
+    "signature": "93314146834950",
+    "version": 3
+}

@@ -1,0 +1,30 @@
+{
+    "created_time": "2023-06-21T15:40:54Z",
+    "files": [
+        {
+            "attachment_folder": "170674923230662",
+            "created_time": "2023-06-21T15:41:27Z",
+            "id": "4082",
+            "modified_time": "2023-06-21T16:00:12Z",
+            "name": "README.md",
+            "signature": "1784098789927",
+            "tags": [
+            ]
+        }
+    ],
+    "folders": [
+        {
+            "name": ".vuepress"
+        },
+        {
+            "name": "blogs"
+        },
+        {
+            "name": "docs"
+        }
+    ],
+    "id": "1",
+    "modified_time": "2023-06-21T15:40:54Z",
+    "signature": "177781021190",
+    "version": 3
+}
