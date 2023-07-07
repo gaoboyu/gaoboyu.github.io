@@ -1,14 +1,1 @@
-export const data = JSON.parse("{\"key\":\"v-721dc3c6\",\"path\":\"/docs/Me.html\",\"title\":\"Me\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[],\"git\":{\"createdTime\":null,\"updatedTime\":null,\"contributors\":[]},\"filePathRelative\":\"docs/Me.md\"}")
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}
+export const data = JSON.parse("{\"key\":\"v-721dc3c6\",\"path\":\"/docs/Me.html\",\"title\":\"Me\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[],\"git\":{\"createdTime\":1688711854000,\"updatedTime\":1688711854000,\"contributors\":[{\"name\":\"高博宇\",\"email\":\"gaoboyu@189.cn\",\"commits\":1}]},\"filePathRelative\":\"docs/Me.md\"}")

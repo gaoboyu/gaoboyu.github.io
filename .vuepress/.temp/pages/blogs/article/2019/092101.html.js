@@ -1,14 +1,1 @@
-export const data = JSON.parse("{\"key\":\"v-358c1d92\",\"path\":\"/blogs/article/2019/092101.html\",\"title\":\"second page in category1\",\"lang\":\"en-US\",\"frontmatter\":{\"title\":\"second page in category1\",\"date\":\"2019/09/21\",\"tags\":[\"tag2\"],\"categories\":[\"category1\"]},\"headers\":[],\"git\":{\"createdTime\":null,\"updatedTime\":null,\"contributors\":[]},\"filePathRelative\":\"blogs/article/2019/092101.md\"}")
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}
+export const data = JSON.parse("{\"key\":\"v-358c1d92\",\"path\":\"/blogs/article/2019/092101.html\",\"title\":\"second page in category1\",\"lang\":\"en-US\",\"frontmatter\":{\"title\":\"second page in category1\",\"date\":\"2019/09/21\",\"tags\":[\"tag2\"],\"categories\":[\"category1\"]},\"headers\":[],\"git\":{\"createdTime\":1688711854000,\"updatedTime\":1688711854000,\"contributors\":[{\"name\":\"高博宇\",\"email\":\"gaoboyu@189.cn\",\"commits\":1}]},\"filePathRelative\":\"blogs/article/2019/092101.md\"}")
