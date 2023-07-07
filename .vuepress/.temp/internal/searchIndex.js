@@ -77,6 +77,13 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "Me",
+    "headers": [],
+    "path": "/docs/Me.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "vuepress-theme-reco",
     "headers": [
       {
@@ -130,56 +137,99 @@ export const searchIndex = [
   {
     "title": "first page in category1",
     "headers": [],
-    "path": "/blogs/comment/2018/121501.html",
+    "path": "/blogs/article/2018/121501.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "second page in category1",
     "headers": [],
-    "path": "/blogs/comment/2019/092101.html",
+    "path": "/blogs/article/2019/092101.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "first page in category2",
     "headers": [],
-    "path": "/blogs/planner/2016/121501.html",
+    "path": "/blogs/skill/2016/121501.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "second page in category2",
     "headers": [],
-    "path": "/blogs/planner/2017/092101.html",
+    "path": "/blogs/skill/2017/092101.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "api",
     "headers": [],
-    "path": "/docs/means/commodity/api.html",
+    "path": "/docs/Document/commodity/api.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "theme-reco",
     "headers": [],
-    "path": "/docs/means/commodity/home.html",
+    "path": "/docs/Document/commodity/home.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "plugin",
     "headers": [],
-    "path": "/docs/means/commodity/plugin.html",
+    "path": "/docs/Document/commodity/plugin.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "theme",
     "headers": [],
-    "path": "/docs/means/commodity/theme.html",
+    "path": "/docs/Document/commodity/theme.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Midjourney+ChatGPT精准控制关键词",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1、 训练ChatGPT",
+        "slug": "_1、-训练chatgpt",
+        "link": "#_1、-训练chatgpt",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2、告诉它输出的格式",
+        "slug": "_2、告诉它输出的格式",
+        "link": "#_2、告诉它输出的格式",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3、输入主题",
+        "slug": "_3、输入主题",
+        "link": "#_3、输入主题",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4、让chatgpt多组思路",
+        "slug": "_4、让chatgpt多组思路",
+        "link": "#_4、让chatgpt多组思路",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5、改变风格",
+        "slug": "_5、改变风格",
+        "link": "#_5、改变风格",
+        "children": []
+      }
+    ],
+    "path": "/docs/Notebook/chatGPT/ChatGPT.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -191,3 +241,16 @@ export const searchIndex = [
     "extraFields": []
   }
 ]
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ searchIndex }) => {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  })
+}

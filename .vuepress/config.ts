@@ -32,40 +32,86 @@ export default defineUserConfig({
       ],
     },
     navbar: [
-      { text: "首页", link: "/" },
-      { text: "博客", link: "/blogs/comment/guide" },
+      { text: "首页", icon: 'Home', link: "/" },
       {
-        text: "笔记",
+        text: "野美日志",
+        icon: 'Blog',
         children: [
-          { text: "ChatGPT", link: "/blogs/note/chatGPT/theme" },
-          { text: "Midjourney", link: "/blogs/note/midjourney/" },
-          { text: "StableDiffusion", link: "/blogs/note/stablediffusion/" },
+          { text: "索引", link: "/posts/" },
+          { text: "分类", link: "/categories/reco/1/" },
+          { text: "标签", link: "/tags/tag1/1/" },
+          {
+            text: '标签',
+            children: [
+              { text: 'page', link: '/docs/plugins/page' },
+              { text: 'comments', link: '/docs/plugins/comments' },
+              { text: 'vue-previews', link: '/docs/plugins/vue-previews' },
+              { text: 'bulletin-popover', link: '/docs/plugins/bulletin-popover' },
+            ],
+          },
         ],
       },
       {
-        text: "行业",
+        text: '学习笔记',
+        icon: 'Notebook',
         children: [
-          { text: "零售", link: "/docs/industry/retail/theme" },
-          { text: "酒店", link: "/docs/industry/hotel/" },
-          { text: "票务", link: "/docs/industry/ticket/" },
+        {
+          text: 'AIGC',
+          children: [
+            { text: "ChatGPT", link: "/docs/Notebook/chatGPT/ChatGPT" },
+            { text: "Midjourney", link: "/docs/Notebook/midjourney/" },
+            { text: "StableDiffusion", link: "/docs/Notebook/stablediffusion/" },
+          ],
+        },
+        {
+          text: '程序开发',
+          children: [
+            { text: 'page', link: '/docs/plugins/page' },
+            { text: 'comments', link: '/docs/plugins/comments' },
+            { text: 'vue-previews', link: '/docs/plugins/vue-previews' },
+            { text: 'bulletin-popover', link: '/docs/plugins/bulletin-popover' },
+          ],
+        },
         ],
       },
       {
-        text: "文档",
+        text: "资源分享",
+        icon: 'Industry',
         children: [
-          { text: "会员", link: "/docs/means/member/" },
-          { text: "商品", link: "/docs/means/commodity/" },
-          { text: "促销", link: "/docs/means/promotion/" },
-          { text: "交易", link: "/docs/means/transaction/" },
-          { text: "订单", link: "/docs/means/order/" },
-          { text: "资金", link: "/docs/means/fund/" },
-          { text: "数据", link: "/docs/means/data/" },
-          { text: "工具", link: "/docs/means/tools/" },
+          { text: "零售", link: "/docs/Industry/retail/" },
+          { text: "酒店", link: "/docs/Industry/hotel/" },
+          { text: "票务", link: "/docs/Industry/ticket/" },
         ],
       },
-      { text: "资源", link: "/docs/resources/guide" },
-      { text: "分类", link: "/categories/reco/1/" },
-      { text: "标签", link: "/tags/tag1/1/" },
+      {
+        text: "产品资料",
+        icon: 'Document',
+        children: [
+          {
+            text: '行业',
+            children: [
+              { text: "零售", link: "/docs/Industry/retail/" },
+              { text: "酒店", link: "/docs/Industry/hotel/" },
+              { text: "票务", link: "/docs/Industry/ticket/" },
+            ],
+          },
+          {
+            text: '文档',
+            children: [
+              { text: "会员", link: "/docs/Document/member/" },
+              { text: "商品", link: "/docs/Document/commodity/" },
+              { text: "促销", link: "/docs/Document/promotion/" },
+              { text: "交易", link: "/docs/Document/transaction/" },
+              { text: "订单", link: "/docs/Document/order/" },
+              { text: "资金", link: "/docs/Document/fund/" },
+              { text: "数据", link: "/docs/Document/data/" },
+              { text: "工具", link: "/docs/Document/tools/" },
+            ],
+          },
+          ],
+
+      },
+      { text: "Me", icon: 'UserAvatar', link: "/docs/Me" },
     ],
     bulletin: {
       body: [
