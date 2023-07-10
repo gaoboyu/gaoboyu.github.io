@@ -1,6 +1,6 @@
 ---
-title: 指南
-icon: lightbulb
+title: 产品文档
+icon: scroll
 ---
 
 ## 功能亮点

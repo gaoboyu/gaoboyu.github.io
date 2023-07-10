@@ -1,6 +1,6 @@
 ---
-title: 指南
-icon: lightbulb
+title: 野美日志
+icon: water
 ---
 
 ## 功能亮点

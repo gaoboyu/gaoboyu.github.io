@@ -1,6 +1,6 @@
 ---
-title: 指南
-icon: lightbulb
+title: 神秘的白虎涧
+icon: quote-left
 ---
 
 ## 功能亮点

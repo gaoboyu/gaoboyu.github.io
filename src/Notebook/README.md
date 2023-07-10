@@ -1,6 +1,6 @@
 ---
-title: 指南
-icon: lightbulb
+title: 学习笔记
+icon: rainbow
 ---
 
 ## 功能亮点
