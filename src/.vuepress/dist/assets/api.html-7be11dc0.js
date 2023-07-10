@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper-c27b6911.js";import{o as t,c as o,a as s}from"./app-832239e2.js";const c={},_=s("p",null,"This is api.",-1),a=[_];function n(r,i){return t(),o("div",null,a)}const f=e(c,[["render",n],["__file","api.html.vue"]]);export{f as default};
