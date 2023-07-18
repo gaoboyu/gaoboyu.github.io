@@ -1,1 +1,0 @@
-import{_ as e}from"./plugin-vue_export-helper-c27b6911.js";import{o as t,c as o,a as s}from"./app-832239e2.js";const c={},_=s("p",null,"This is theme.",-1),n=[_];function r(a,l){return t(),o("div",null,n)}const h=e(c,[["render",r],["__file","theme.html.vue"]]);export{h as default};

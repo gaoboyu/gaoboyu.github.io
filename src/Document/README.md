@@ -1,16 +1,4 @@
 ---
-title: 产品文档
-icon: scroll
+title: 产品笔记
+icon: file-powerpoint
 ---
-
-## 功能亮点
-
-### Bar
-
-- [baz](bar/baz.md)
-- ...
-
-### Foo
-
-- [ray](foo/ray.md)
-- ...

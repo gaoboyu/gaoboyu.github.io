@@ -1,0 +1,5 @@
+---
+title: AIGC
+icon: brain
+---
+

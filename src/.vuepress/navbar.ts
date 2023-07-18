@@ -2,33 +2,15 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
-  "/Diary/",
-  {
-    text: "产品文档",
-    icon: "scroll",
-    prefix: "/Document/",
-    children: [
-      {
-        text: "基础产品",
-        icon: "lightbulb",
-        prefix: "user/",
-        children: [
-          { text: "消费类用户", icon: "battery-full", link: "README" },
-          { text: "商户类用户", icon: "battery-empty", link: "" },
-        ],
-      },
-      {
-        text: "Foo",
-        icon: "lightbulb",
-        prefix: "foo/",
-        children: ["ray", { text: "...", icon: "far fa-lightbulb", link: "" }],
-      },
-    ],
-  },
-  "/Notebook/",
-  "/Novel/",
-  "/Me",
-  "/demo/",
+  "/Document/",//互联网产品
+  "/Real/",//实体经营
+  "/Operate/",//产品运营
+  "/Data/",//数据分析
+  "/AIGC/",
+  "/Share/",//资源分享
+  "/Novel/",//小说
+  "/Me",//简历
+  /*
   {
     text: "指南",
     icon: "lightbulb",
@@ -48,9 +30,11 @@ export default navbar([
       },
     ],
   },
+  "/demo/",
   {
     text: "V2 文档",
     icon: "book",
     link: "https://theme-hope.vuejs.press/zh/",
   },
+  */
 ]);

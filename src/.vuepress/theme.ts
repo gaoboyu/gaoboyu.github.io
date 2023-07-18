@@ -9,7 +9,7 @@ export default hopeTheme({
     name: "Mr.Hope",
     url: "https://gaoboyu.gitee.io",
   },
-
+  // 关键词: "iconfont", "iconify", "fontawesome", "fontawesome-with-brands"
   iconAssets: "fontawesome-with-brands",
 
   logo: "/logo.svg",
