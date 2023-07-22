@@ -6,7 +6,7 @@ export default hopeTheme({
   hostname: "https://gaoboyu.gitee.io",
 
   author: {
-    name: "Mr.Hope",
+    name: "野美",
     url: "https://gaoboyu.gitee.io",
   },
   // 关键词: "iconfont", "iconify", "fontawesome", "fontawesome-with-brands"

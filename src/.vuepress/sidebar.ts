@@ -19,24 +19,6 @@ export default sidebar({
     "slides",
     "Me",
   ],
-  "/Diary/": [
-    "",
-    {
-      text: "案例",
-      icon: "laptop-code",
-      prefix: "demo/",
-      link: "demo/",
-      children: "structure",
-    },
-    {
-      text: "文档",
-      icon: "book",
-      prefix: "guide/",
-      children: "structure",
-    },
-    "slides",
-    "Me",
-  ],
   "/Document/": [
     "",
     {
@@ -77,6 +59,96 @@ export default sidebar({
     },
     
   ],
+  "/Real/": [
+    "",
+    {
+      text: "零售",
+      icon: "laptop-code",
+      prefix: "ChatGPT/",
+      children: "structure",
+    },
+    {
+      text: "餐饮",
+      icon: "book",
+      prefix: "Midjourney/",
+      children: "structure",
+    },
+    {
+      text: "景区",
+      icon: "book",
+      prefix: "StableDiffusion/",
+      children: "structure",
+    },
+    {
+      text: "服务",
+      icon: "book",
+      prefix: "StableDiffusion/",
+      children: "structure",
+    },
+  ],
+  "/Operate/": [
+    "",
+    {
+      text: "电子商务",
+      icon: "laptop-code",
+      prefix: "ChatGPT/",
+      children: "structure",
+    },
+    {
+      text: "Midjourney",
+      icon: "book",
+      prefix: "Midjourney/",
+      children: "structure",
+    },
+    {
+      text: "StableDiffusion",
+      icon: "book",
+      prefix: "StableDiffusion/",
+      children: "structure",
+    },
+  ],
+  "/Data/": [
+    "",
+    {
+      text: "数据分析",
+      icon: "laptop-code",
+      prefix: "ChatGPT/",
+      children: "structure",
+    },
+    {
+      text: "数据挖掘",
+      icon: "book",
+      prefix: "Midjourney/",
+      children: "structure",
+    },
+    {
+      text: "数据词典",
+      icon: "book",
+      prefix: "StableDiffusion/",
+      children: "structure",
+    },
+  ],
+  "/Manage/": [
+    "",
+    {
+      text: "ChatGPT",
+      icon: "laptop-code",
+      prefix: "ChatGPT/",
+      children: "structure",
+    },
+    {
+      text: "Midjourney",
+      icon: "book",
+      prefix: "Midjourney/",
+      children: "structure",
+    },
+    {
+      text: "StableDiffusion",
+      icon: "book",
+      prefix: "StableDiffusion/",
+      children: "structure",
+    },
+  ],
   "/AIGC/": [
     "",
     {
@@ -98,7 +170,7 @@ export default sidebar({
       children: "structure",
     },
   ],
-  "/Notebook/": [
+  "/Share/": [
     "",
     {
       text: "第一卷",
